@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: adisunPython
+  host: adisunPython
+  disk_quota: 1024M
+  services:
+  - Language Translator-qh
+  - availability-monitoring-auto
+  - mysql-51
